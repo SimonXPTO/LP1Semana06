@@ -22,8 +22,8 @@ namespace Chronos
             crono1.Stop();
             crono2.Stop();
 
-            Console.WriteLine($"Crono1: {crono1.Elapsed.TotalSeconds:f4}");
-            Console.WriteLine($"Crono2: {crono2.Elapsed.TotalSeconds:f4}");
+            Console.WriteLine($"{crono1.Elapsed.TotalSeconds:f4}");
+            Console.WriteLine($"{crono2.Elapsed.TotalSeconds:f4}");
 
 
         }
