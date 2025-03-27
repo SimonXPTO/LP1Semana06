@@ -24,6 +24,7 @@ namespace MyGame
                 inimigo.TakeDamage(80);
                 Console.WriteLine($"{inimigo.GetName()} {inimigo.GetHealth()} {inimigo.GetShield()}");
             }
+            Console.WriteLine($"Total de PowerUps: {Enemy.GetTotalPowerUps()}");
 
             
         }
