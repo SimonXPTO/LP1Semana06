@@ -19,8 +19,13 @@ namespace MyGame
 
             foreach (var inimigo in inimigos)
             {
+                inimigo.PickupPowerUp(PowerUp.Health, 50);
+                inimigo.PickupPowerUp(PowerUp.Shield, 50);
+                inimigo.TakeDamage(80);
                 Console.WriteLine($"{inimigo.GetName()} {inimigo.GetHealth()} {inimigo.GetShield()}");
             }
+
+            
         }
     }
 }

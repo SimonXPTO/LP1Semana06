@@ -1,3 +1,5 @@
+using System;
+
 namespace MyGame
 {
     public class Enemy
@@ -10,6 +12,17 @@ namespace MyGame
         {
             SetName(name);
             health = 100;
+        }
+        public void PickupPowerUp(PowerUp powerUp, float value)
+        {
+            if (powerUp == PowerUp.Health)
+            {
+                health = MathF.Min(health + value, 100);
+            }
+            else if (powerUp == PowerUp.Shield)
+            {
+                shield = MathF.Min(shield + value, 100);
+            }
         }
         public string GetName()
         {
