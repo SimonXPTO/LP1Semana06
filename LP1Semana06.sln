@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos", "Chronos\Chronos.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomTest", "RandomTest\RandomTest.csproj", "{C5A017F7-7FAD-4A4C-91B5-06DC440D9C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandDice", "RandDice\RandDice.csproj", "{3AE21362-2C4A-42B1-A6AB-0807B73825B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{C5A017F7-7FAD-4A4C-91B5-06DC440D9C64}.Release|x64.Build.0 = Release|Any CPU
 		{C5A017F7-7FAD-4A4C-91B5-06DC440D9C64}.Release|x86.ActiveCfg = Release|Any CPU
 		{C5A017F7-7FAD-4A4C-91B5-06DC440D9C64}.Release|x86.Build.0 = Release|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Release|x64.Build.0 = Release|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{3AE21362-2C4A-42B1-A6AB-0807B73825B7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
