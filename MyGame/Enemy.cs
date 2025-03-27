@@ -8,12 +8,20 @@ namespace MyGame
         
         public Enemy(string name)
         {
-            this.name = name; 
+            SetName(name);
             health = 100;
         }
         public string GetName()
         {
             return name;
+        }
+        public float GetHealth()
+        {
+            return health;
+        }
+        public float GetShield()
+        {
+            return shield;
         }
 
         public void TakeDamage(float damage)
@@ -25,6 +33,17 @@ namespace MyGame
                 shield = 0;
                 health -= damageStillToInflict;
                 if (health < 0) health = 0;
+            }
+        }
+        public void SetName(string name)
+        {
+            if (name.Length > 8)
+            {
+                this.name = name.Substring(0, 8);
+            }
+            else
+            {
+                this.name = name;
             }
         }
     }
