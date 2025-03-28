@@ -78,7 +78,16 @@ namespace MyRoguelike
             return count;
         }
 
-        
+        public void PrintEnemies()
+        {
+            for (int i = 0; i < rooms.Length; i++)
+            {
+                if (rooms[i] != null)
+                {
+                    Console.WriteLine($"{i.ToOrdinalWords(new System.Globalization.CultureInfo("en")).Transform(To.TitleCase)} room: {rooms[i].GetName()}");
+                }
+            }
+        }
 
     }
 }
